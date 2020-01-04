@@ -26,7 +26,7 @@ boot || goto custom_exit
 :ntpasswd
 ###kernel https://boot.netboot.xyz/memdisk raw iso
 ###initrd http://path.to/iso
-kernel ${memdisk} iso raw
+kernel https://boot.netboot.xyz/memdisk raw iso
 initrd http://pogostick.net/~pnh/ntpasswd/cd140201.zip
 boot || goto custom_exit
 
